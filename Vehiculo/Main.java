@@ -1,5 +1,4 @@
 package Vehiculo;
-
 public class Main {
 
     public static void mostrarEstadoVehiculo(String marca, String modelo, int velocidadActual) {
