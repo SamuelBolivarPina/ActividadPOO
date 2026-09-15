@@ -1,3 +1,4 @@
+package Producto;
 public class Producto {
     String nombre;
     double precio;
@@ -31,9 +32,9 @@ public class Producto {
         stock += cantidad;
     }
 
-    public static void crearProductoBasico(String nombre) {
-        double precio = 10.0;
+    public static void crearProductoBasico(String nombre){
         int stock = 1;
+        double precio = 10.0;
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: $" + precio);
         System.out.println("Stock: " + stock);

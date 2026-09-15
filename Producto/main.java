@@ -7,9 +7,7 @@ public class main {
         System.out.println("Precio: " + precio);
         System.out.println("Stock: " + stock);
     }
-    public static void crearProductoBasico(String nombre){
-        System.out.println("Precio Basico: " +);
-    }
+
     public static void main(String[] args) {
         // --- Simulación de Constructor Vacío ---
         // Declaración previa de variables
@@ -27,15 +25,22 @@ public class main {
         double precio2 = 25.0;
         int stock2 = 15;
 
-        // Mostrar resultados
         System.out.println("Producto 1 (Simulación Constructor Vacío)");
         mostrarProducto(nombre1, precio1, stock1);
 
-        System.out.println(" Producto 2 (Simulación Constructor con Parámetros)");
+        System.out.println("\nProducto 2 (Simulación Constructor con Parámetros)");
         mostrarProducto(nombre2, precio2, stock2);
-    }
-    public static void crearProductoBasico(){
 
+        // --- Ejercicio 32 ---
+        System.out.println("\n=== Producto Básico 1 (Ejercicio 32) ===");
+        Producto.crearProductoBasico("Cuaderno");
+
+        System.out.println("\n=== Producto Básico 2 (Ejercicio 32) ===");
+        Producto.crearProductoBasico("Bolígrafo");
     }
 }
+
+
+
+
 
