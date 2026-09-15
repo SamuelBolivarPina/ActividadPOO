@@ -7,4 +7,8 @@ public class Vehiculo {
                 System.out.println("Modelo" + modelo);
                 System.out.println("Velocidad Actual" + velocidadActual + "km/h");
     }
+            void acelerar() {
+                velocidadActual += 10;
+            }
 }
+
