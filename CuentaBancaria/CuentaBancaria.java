@@ -10,4 +10,12 @@ public class CuentaBancaria {
     void consignar(double valor){
         saldo += valor;
     }
+    void retirar(double valor){
+    if(saldo >= valor){
+        saldo -= valor;
+    }
+    else{
+        System.out.println("saldo insuficiente.");
+        }
+    }
 }
