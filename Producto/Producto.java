@@ -3,18 +3,21 @@ public class Producto {
     double precio;
     int stock;
 
-    public Producto(){
+    public Producto() {
     }
-    public Producto(String nombre, double precio, int stock){
+
+    public Producto(String nombre, double precio, int stock) {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
     }
-    void mostrarProducto(){
+
+    void mostrarProducto() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: " + precio);
         System.out.println("Stock: " + stock);
     }
+
     void vender(int cantidad) {
         if (stock >= cantidad) {
             stock -= cantidad;
@@ -23,12 +26,16 @@ public class Producto {
         }
 
     }
-    void restablecer(int cantidad){
+
+    void restablecer(int cantidad) {
         stock += cantidad;
-        }
-    public static void crearProductoBasico(String nombre){
+    }
+
+    public static void crearProductoBasico(String nombre) {
         double precio = 10.0;
         int stock = 1;
-        System.out.println("Producto Básico Creado: " + nombre + " | Precio: $" + precio + " | Stock: " + stock);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Precio: $" + precio);
+        System.out.println("Stock: " + stock);
     }
 }

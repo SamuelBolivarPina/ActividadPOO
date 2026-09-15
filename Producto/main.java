@@ -8,9 +8,7 @@ public class main {
         System.out.println("Stock: " + stock);
     }
     public static void crearProductoBasico(String nombre){
-        double PrecioBasico = 10.0;
-        int stockBasico = 1;
-        mostrarProducto(nombre, PrecioBasico, stockBasico);
+        System.out.println("Precio Basico: " +);
     }
     public static void main(String[] args) {
         // --- Simulación de Constructor Vacío ---
@@ -35,6 +33,9 @@ public class main {
 
         System.out.println(" Producto 2 (Simulación Constructor con Parámetros)");
         mostrarProducto(nombre2, precio2, stock2);
+    }
+    public static void crearProductoBasico(){
+
     }
 }
 
