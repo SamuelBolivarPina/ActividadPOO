@@ -1,5 +1,5 @@
+package Producto;
 public class main {
-
     public static void mostrarProducto(String nombre, double precio, int stock) {
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: $" + precio);
