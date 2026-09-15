@@ -30,5 +30,16 @@ public class main {
         libro2.mostrarInfo();
         libro3.mostrarInfo();
         libro4.mostrarInfo();
+        /*
+         * CONCLUSIÓN EJERCICIO 22:
+
+         La clase 'Libro' es una PLANTILLA porque solo define la estructura y el comportamiento
+         general (los atributos 'titulo', 'autor', 'paginas' y el método 'mostrarInfo')
+         sin contener datos reales de ningún libro en particular.
+
+         Los cuatro 'libros' creados son OBJETOS (casos concretos) porque son instancias reales
+         en memoria donde cada uno tiene sus propios valores específicos asignados
+         a esos atributos.
+         */
     }
 }
