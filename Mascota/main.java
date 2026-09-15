@@ -10,21 +10,39 @@ public class main {
 
     public static void main(String[] args) {
         // Datos iniciales
-        String nombre = "Firulais";
-        String raza = "Labrador";
-        int edad = 2; // Edad inicial
+        String nombre1 = "Firulais";
+        String raza1 = "Labrador";
+        int edad1 = 2; // Edad inicial
 
         System.out.println("Estado Inicial");
-        mostrarMascota(nombre, raza, edad);
+        mostrarMascota(nombre1, raza1, edad1);
 
         // Primer cambio de edad
-        edad = 3;
+        edad1 = 3;
         System.out.println("Después del Primer Cambio de Edad");
-        mostrarMascota(nombre, raza, edad);
+        mostrarMascota(nombre1, raza1, edad1);
 
         // Segundo cambio de edad
-        edad = 5;
+        edad1 = 5;
         System.out.println("Después del Segundo Cambio de Edad");
-        mostrarMascota(nombre, raza, edad);
+        mostrarMascota(nombre1, raza1, edad1);
+
+        // creando segundo objeto
+        String nombre2 = "Dreikol";
+        String raza2 = "Poochin";
+        int edad2 = 2;
+
+        System.out.println("Estado inicial");
+        mostrarMascota(nombre2,raza2,edad2);
+
+        //primer cambio de edad
+        edad2 = 3;
+        System.out.println("Despues del Primer cambio de edad");
+        mostrarMascota(nombre2,raza2,edad2);
+
+        edad2 = 5;
+        System.out.println("Despues del segundo cambio de edad");
+        mostrarMascota(nombre2,raza2,edad2);
+
     }
 }
