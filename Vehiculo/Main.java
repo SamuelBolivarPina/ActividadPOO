@@ -18,6 +18,11 @@ public class Main {
         String modelo2 = "Onix";
         int velocidadActual2 = 80;
 
+        // ---Vehiculo 3 ---
+        String marca3 = "BMW";
+        String modelo3 = "M3 GTR (E46)";
+        int velocidadActual3 = 120;
+
         // Imprimir información del primer vehículo
         System.out.println("--- Vehículo 1 ---");
         mostrarEstadoVehiculo(marca1, modelo1, velocidadActual1);
@@ -27,5 +32,23 @@ public class Main {
         // Imprimir información del segundo vehículo
         System.out.println("--- Vehículo 2 ---");
         mostrarEstadoVehiculo(marca2, modelo2, velocidadActual2);
+
+        // imprimir infomacion del tercer vehiculo
+        System.out.println("--- Vehiculo 3 ---");
+        mostrarEstadoVehiculo(marca3,modelo3,velocidadActual3);
+
+        System.out.println();
+        /*
+         EXPLICACIÓN EJERCICIO 20:
+
+         ¿Qué comparten?
+         Comparten la misma estructura (atributos: marca, modelo, velocidadActual)
+         y los mismos comportamientos/métodos (mostrarEstado, acelerar, frenar)
+         definidos en la clase Vehiculo.
+
+         ¿En qué se diferencian?
+         Se diferencian en el estado particular de sus datos (sus valores asignados)
+         y en la posición de memoria independiente que ocupa cada objeto.
+         */
     }
 }
