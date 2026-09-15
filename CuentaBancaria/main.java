@@ -19,6 +19,11 @@ public class main {
         String numero2 = "987654321";
         double saldo2 = 3200000.0;
 
+        //Datos de la Cuenta 3
+        String titular3 = "Samuel Bolivar";
+        String numero3 = "53457873";
+        double saldo3 = 5000000.0;
+
         // Mostrar Cuenta 1
         System.out.println("--- Cuenta Bancaria 1 ---");
         mostrarCuenta(titular1, numero1, saldo1);
@@ -28,5 +33,9 @@ public class main {
         // Mostrar Cuenta 2
         System.out.println("Cuenta Bancaria 2");
         mostrarCuenta(titular2, numero2, saldo2);
+
+        // Mostrar Cuenta 3
+        System.out.println("---Cuenta Bancaria 3---");
+        mostrarCuenta(titular3, numero3, saldo3);
     }
 }
