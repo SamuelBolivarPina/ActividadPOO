@@ -28,22 +28,22 @@ public class main {
         int bateria1 = 45;
         boolean prendido1 = false;
 
-        System.out.println("=== Estado Inicial ===");
+        System.out.println("Estado Inicial");
         mostrarEstado(marca1, bateria1, prendido1);
 
         // Encender
         prendido1 = encender();
-        System.out.println("\n=== Después de Encender ===");
+        System.out.println("Después de Encender");
         mostrarEstado(marca1, bateria1, prendido1);
 
         // Cargar batería
         bateria1 = cargarBateria(bateria1, 30);
-        System.out.println("\n=== Después de Cargar Batería (+30%) ===");
+        System.out.println("Después de Cargar Batería (+30%)");
         mostrarEstado(marca1, bateria1, prendido1);
 
         // Apagar
         prendido1 = apagar();
-        System.out.println("\n=== Después de Apagar ===");
+        System.out.println("Después de Apagar");
         mostrarEstado(marca1, bateria1, prendido1);
     }
 }
