@@ -7,4 +7,11 @@ public class Producto {
         System.out.println("Precio: " + precio);
         System.out.println("Stock: " + stock);
     }
-}
+        void vender(int cantidad) {
+            if (stock >= cantidad) {
+                stock -= cantidad;
+            } else {
+                System.out.println("Stock insuficiente.");
+            }
+        }
+    }
