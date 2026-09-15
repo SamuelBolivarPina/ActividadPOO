@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Producto" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Vehiculo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Libro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Alumno" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Cancion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Celular" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Computador" isTestSource="false" />
@@ -17,6 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lampara" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Paciente" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pelicula" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Persona" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Puerta" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ventilador" isTestSource="false" />
     </content>
