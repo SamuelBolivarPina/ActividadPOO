@@ -15,14 +15,20 @@ public class Producto {
         System.out.println("Precio: " + precio);
         System.out.println("Stock: " + stock);
     }
-        void vender(int cantidad) {
-            if (stock >= cantidad) {
-                stock -= cantidad;
-            } else {
-                System.out.println("Stock insuficiente.");
-            }
+    void vender(int cantidad) {
+        if (stock >= cantidad) {
+            stock -= cantidad;
+        } else {
+            System.out.println("Stock insuficiente.");
         }
-        void restablecer(int cantidad){
+
+    }
+    void restablecer(int cantidad){
         stock += cantidad;
         }
+    public static void crearProductoBasico(String nombre){
+        double precio = 10.0;
+        int stock = 1;
+        System.out.println("Producto Básico Creado: " + nombre + " | Precio: $" + precio + " | Stock: " + stock);
     }
+}

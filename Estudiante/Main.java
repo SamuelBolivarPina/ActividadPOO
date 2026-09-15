@@ -14,19 +14,19 @@ public class Main {
 
             String nombre2 = "María";
             String codigo2 = "7502610088";
-            int semestre2 = 1;
+            int semestre2 = 3;
 
             String nombre3 = "Carlos";
             String codigo3 = "7502610099";
-            int semestre3 = 3;
+            int semestre3 = 5;
 
             System.out.println("--- Estudiante 1 ---");
             mostrarEstudiante(nombre1, codigo1, semestre1);
 
-            System.out.println("\n--- Estudiante 2 ---");
-            mostrarEstudiante(nombre2, codigo2, semestre2);
+            System.out.println("--- Estudiante 2 ---");
+            mostrarEstudiante(nombre2, codigo2,semestre2);
 
-            System.out.println("\n--- Estudiante 3 ---");
-            mostrarEstudiante(nombre3, codigo3, semestre3);
+            System.out.println("--- Estudiante 3 ---");
+            mostrarEstudiante(nombre3,codigo3,semestre3);
     }
 }
