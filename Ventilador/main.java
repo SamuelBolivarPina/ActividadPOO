@@ -34,18 +34,18 @@ public class main {
         // Encender
         encendido1 = encender();
         velocidad1 = 1; // Inicia en velocidad 1 al encender
-        System.out.println("\n=== Después de Encender ===");
+        System.out.println(" Después de Encender");
         mostrarEstado(marca1, velocidad1, encendido1);
 
         // Subir velocidad
         velocidad1 = subirVelocidad(velocidad1, encendido1);
-        System.out.println("\n=== Después de Subir Velocidad ===");
+        System.out.println("Después de Subir Velocidad");
         mostrarEstado(marca1, velocidad1, encendido1);
 
         // Apagar
         encendido1 = apagar();
         velocidad1 = 0;
-        System.out.println("\n=== Después de Apagar ===");
+        System.out.println("Después de Apagar");
         mostrarEstado(marca1, velocidad1, encendido1);
     }
 }
