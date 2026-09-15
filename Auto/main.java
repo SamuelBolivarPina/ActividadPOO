@@ -3,7 +3,7 @@ package Auto;
 public class main {
 
     /*
-       EQUIVALENTE PROCEDIMENTAL DEL ERROR DE ÁMBITO (Sin 'new'):
+       EQUIVALENTE PROCEDIMENTAL DEL ERROR DE ÁMBITO:
 
       public static void actualizarVelocidad(int velocidad) {
           int velocidad = 50; // Error de compilación: 'variable velocidad is already defined'

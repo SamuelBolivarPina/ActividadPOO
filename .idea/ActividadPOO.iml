@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Computador" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Curso" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Empleado" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Figura" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lampara" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Paciente" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pelicula" isTestSource="false" />
