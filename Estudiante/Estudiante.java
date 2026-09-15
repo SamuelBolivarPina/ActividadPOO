@@ -7,4 +7,7 @@ public class Estudiante {
         System.out.println("Codigo: " + codigo);
         System.out.println("Semestre" + semestre);
     }
+    void cambiarSemestre(int nuevoSemestre){
+        semestre = nuevoSemestre;
+    }
 }
