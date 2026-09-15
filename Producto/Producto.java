@@ -14,4 +14,7 @@ public class Producto {
                 System.out.println("Stock insuficiente.");
             }
         }
+        void restablecer(int cantidad){
+        stock += cantidad;
+        }
     }
