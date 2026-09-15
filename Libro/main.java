@@ -3,6 +3,14 @@ public class main {
     public static void mostrarInfo(String titulo, String autor, int paginas) {
         System.out.println("Título: " + titulo + " | Autor: " + autor + " | Páginas: " + paginas);
     }
+    public static void copiarLibro(String titulo, String autor, int paginas) {
+        String tituloCopia = titulo;
+        String autorCopia = autor;
+        int paginasCopia = paginas;
+
+        System.out.println("--- Libro Copia ---");
+        mostrarInfo(tituloCopia, autorCopia, paginasCopia);
+    }
 
     public static void main(String[] args) {
         // --- 1. Simulación de Constructor Vacío ---
@@ -23,13 +31,24 @@ public class main {
         String autor2 = "George Orwell";
         int paginas2 = 328;
 
-
-        // Mostrar resultados
         System.out.println("Objeto 1 (Simulación Constructor Vacío)");
         mostrarInfo(titulo1, autor1, paginas1);
 
-        System.out.println("Objeto 2 (Simulación Constructor con Parámetros)");
+        System.out.println("\nObjeto 2 (Simulación Constructor con Parámetros)");
         mostrarInfo(titulo2, autor2, paginas2);
+
+        System.out.println("\n=== Ejercicio 34 ===");
+        String tituloOriginal = "Fahrenheit 451";
+        String autorOriginal = "Ray Bradbury";
+        int paginasOriginal = 249;
+
+        System.out.println("--- Libro Original ---");
+        mostrarInfo(tituloOriginal, autorOriginal, paginasOriginal);
+
+        // Simulación del constructor copia usando las variables del original
+        copiarLibro(tituloOriginal, autorOriginal, paginasOriginal);
+    }
+}
         /*
          * CONCLUSIÓN EJERCICIO 22:
 
@@ -41,5 +60,4 @@ public class main {
          en memoria donde cada uno tiene sus propios valores específicos asignados
          a esos atributos.
          */
-    }
-}
+
