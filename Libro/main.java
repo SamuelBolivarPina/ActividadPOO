@@ -1,35 +1,35 @@
 public class main {
+
+    public static void mostrarInfo(String titulo, String autor, int paginas) {
+        System.out.println("Título: " + titulo + " | Autor: " + autor + " | Páginas: " + paginas);
+    }
+
     public static void main(String[] args) {
-        // Crear el objeto 1
-        Libro libro1 = new Libro();
-        libro1.titulo = "Cien años de soledad";
-        libro1.autor = "Gabriel García Márquez";
-        libro1.paginas = 471;
+        // --- 1. Simulación de Constructor Vacío ---
+        // Se declaran las variables primero (como cuando el constructor vacío crea el objeto sin datos)
+        String titulo1;
+        String autor1;
+        int paginas1;
 
-        // Crear el objeto 2
-        Libro libro2 = new Libro();
-        libro2.titulo = "Don Quijote de la Mancha";
-        libro2.autor = "Miguel de Cervantes";
-        libro2.paginas = 863;
+        // Luego se le asignan los valores línea por línea
+        titulo1 = "Cien años de soledad";
+        autor1 = "Gabriel García Márquez";
+        paginas1 = 471;
 
-        // Crear el objeto 3
-        Libro libro3 = new Libro();
-        libro3.titulo = "El principito";
-        libro3.autor = "Antoine de Saint-Exupéry";
-        libro3.paginas = 96;
 
-        // Crear el objeto 4
-        Libro libro4 = new Libro();
-        libro4.titulo = "1984";
-        libro4.autor = "George Orwell";
-        libro4.paginas = 328;
+        // --- 2. Simulación de Constructor con Parámetros ---
+        // Se declaran e inicializan directamente con sus valores en una sola línea
+        String titulo2 = "1984";
+        String autor2 = "George Orwell";
+        int paginas2 = 328;
 
-        // Mostrar la información de cada objeto
-        System.out.println("LISTA DE LIBROS");
-        libro1.mostrarInfo();
-        libro2.mostrarInfo();
-        libro3.mostrarInfo();
-        libro4.mostrarInfo();
+
+        // Mostrar resultados
+        System.out.println("Objeto 1 (Simulación Constructor Vacío)");
+        mostrarInfo(titulo1, autor1, paginas1);
+
+        System.out.println("Objeto 2 (Simulación Constructor con Parámetros)");
+        mostrarInfo(titulo2, autor2, paginas2);
         /*
          * CONCLUSIÓN EJERCICIO 22:
 
