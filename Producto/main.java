@@ -1,5 +1,5 @@
 package Producto;
-
+import Producto.Producto;
 public class main {
 
     public static void mostrarProducto(String nombre, double precio, int stock) {
