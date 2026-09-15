@@ -7,4 +7,7 @@ public class CuentaBancaria {
         System.out.println("numero: " + numero);
         System.out.println("Saldo" + saldo);
     }
+    void consignar(double valor){
+        saldo += valor;
+    }
 }
