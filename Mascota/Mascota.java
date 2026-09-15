@@ -7,4 +7,7 @@ public class Mascota {
         System.out.println("Raza: " + raza);
         System.out.println("Edad: " + edad);
     }
+    void cumplirAnios(){
+        edad ++;
+    }
 }
