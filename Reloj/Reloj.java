@@ -15,6 +15,6 @@ public class Reloj {
     }
 
     public void mostrarHora() {
-        System.out.printf("Hora: %02d:%02d:%02d%n", hora, minuto, segundo);
+        System.out.printf("Hora: 02d: 02d: 02d n", hora, minuto, segundo);
     }
 }
