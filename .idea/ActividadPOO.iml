@@ -30,6 +30,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Reloj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Reserva" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Semaforo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Temperatura" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
