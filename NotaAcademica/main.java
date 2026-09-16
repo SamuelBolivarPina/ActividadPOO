@@ -19,7 +19,7 @@ public class main {
         double nota2_1 = 3.8;
         double nota3_1 = 4.2;
 
-        System.out.println("=== Reporte Académico ===");
+        System.out.println("Reporte Académico");
         mostrarEstado(asignatura1, nota1_1, nota2_1, nota3_1);
     }
 }
