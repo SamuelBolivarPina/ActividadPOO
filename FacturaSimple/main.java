@@ -11,7 +11,7 @@ public class main {
         String cliente1 = "María López";
         double valor1 = 250000.0;
 
-        System.out.println("=== Detalle de la Factura ===");
+        System.out.println("Detalle de la Factura");
         mostrarFactura(numero1, cliente1, valor1);
     }
 }
