@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FacturaSimple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rectangulo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Reserva" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Semaforo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
