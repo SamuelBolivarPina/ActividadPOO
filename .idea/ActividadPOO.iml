@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Tablet" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ventilador" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Videojuego" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FacturaSimple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rectangulo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
