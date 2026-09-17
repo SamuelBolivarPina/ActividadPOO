@@ -1,43 +1,26 @@
 package EquipoDeFutbol;
-/*
-Análisis Previo
-Atributos:
 
-nombre (String): Nombre del equipo.
+public class main {
 
-ciudad (String): Ciudad de origen o sede del club.
-
-puntos (int): Puntos acumulados en el torneo.
-
-Métodos:
-
-ganarPartido(): Incrementa en 3 la cantidad de puntos del equipo.
-
-mostrarEstadisticas(): Imprime el nombre, ciudad y puntaje actual.
-
-Objetos reales que podrían construirse:
-
-equipo1: "Real Cartagena", ciudad "Cartagena", 24 puntos.
-
-equipo2: "Junior", ciudad "Barranquilla", 30 puntos.
- */
-public class EquipoDeFutbol {
-    String nombre;
-    String ciudad;
-    int puntos;
-
-    public EquipoDeFutbol() {
+    public static int ganarPartido(int puntosActuales) {
+        return puntosActuales + 3;
     }
 
-    public EquipoDeFutbol(String nombre, String ciudad, int puntos) {
-        this.nombre = nombre;
-        this.ciudad = ciudad;
-        this.puntos = puntos;
-    }
-    public void ganarPartido() {
-        this.puntos += 3;
-    }
-    public void mostrarEstadisticas() {
+    public static void mostrarEstadisticas(String nombre, String ciudad, int puntos) {
         System.out.println("Equipo: " + nombre + " | Ciudad: " + ciudad + " | Puntos: " + puntos);
+    }
+
+    public static void main(String[] args) {
+        String nombre1 = "Real Cartagena";
+        String ciudad1 = "Cartagena";
+        int puntos1 = 24;
+
+        System.out.println("=== Tabla de Posiciones Inicial ===");
+        mostrarEstadisticas(nombre1, ciudad1, puntos1);
+
+        puntos1 = ganarPartido(puntos1);
+
+        System.out.println("Después de ganar un partido (+3 pts)");
+        mostrarEstadisticas(nombre1, ciudad1, puntos1);
     }
 }
