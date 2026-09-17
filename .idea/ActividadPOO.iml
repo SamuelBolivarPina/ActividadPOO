@@ -29,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Biblioteca" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Docente" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FacturaSimple" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hospital" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InventarioItem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NotaAcademica" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rectangulo" isTestSource="false" />
