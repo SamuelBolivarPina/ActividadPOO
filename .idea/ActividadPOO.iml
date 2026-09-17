@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Avion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Biblioteca" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Docente" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EquipoDeFutbol" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FacturaSimple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Hospital" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InventarioItem" isTestSource="false" />
