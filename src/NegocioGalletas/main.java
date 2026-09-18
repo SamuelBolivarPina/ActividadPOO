@@ -31,6 +31,18 @@ public class main {
             NegocioGalletas n3 = consNegocio.newInstance("Crispy Bakes", "Mantequilla", 60000.0);
             NegocioGalletas n4 = consNegocio.newInstance("Don Cookie", "Rellenas de Nutella", 150000.0);
             NegocioGalletas n5 = consNegocio.newInstance("Bakery Express", "Red Velvet", 95000.0);
+
+            n1.registrarVenta(15000.0);
+
+            // Impresión del resumen de cada objeto
+            n1.mostrarResumen();
+            n2.mostrarResumen();
+            n3.mostrarResumen();
+            n4.mostrarResumen();
+            n5.mostrarResumen();
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
