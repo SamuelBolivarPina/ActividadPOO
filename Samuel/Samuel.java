@@ -17,5 +17,8 @@ public class Samuel {
     public void cumplirAnio() {
         this.edad += 1;
     }
-
+    public void mostrarPerfil() {
+        System.out.println("Estudiante: " + nombre + " | Edad: " + edad + " años");
+        System.out.println("Universidad: " + universidad + " | Carrera: " + carrera);
+    }
 }
