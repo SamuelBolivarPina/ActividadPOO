@@ -16,4 +16,8 @@ public class NegocioGalletas {
             this.ventasDiarias += monto;
         }
     }
+    public void mostrarResumen() {
+        System.out.println("Negocio: " + nombreNegocio + " | Producto: " + productoEstrella + " | Ventas del Día: $" + ventasDiarias);
+    }
 }
+
