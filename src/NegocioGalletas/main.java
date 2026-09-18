@@ -8,4 +8,8 @@ public class main {
         }
         return acumuladoActual;
     }
+
+    public static void mostrarResumenProc(String nombreNegocio, String productoEstrella, double ventasDiarias) {
+        System.out.println("Negocio: " + nombreNegocio + " | Producto: " + productoEstrella + " | Ventas del Día: $" + ventasDiarias);
+    }
 }
