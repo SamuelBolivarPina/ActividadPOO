@@ -44,5 +44,12 @@ public class main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        System.out.println("\n=== SIMULACIÓN PROCEDIMENTAL: 5 Entidades NegocioGalletas ===");
+
+        String nombre1 = "Galletas Artesanales", producto1 = "Galleta de Chispas"; double ventas1 = 85000.0;
+        String nombre2 = "Sweet Cookies", producto2 = "Avena y Miel"; double ventas2 = 120000.0;
+        String nombre3 = "Crispy Bakes", producto3 = "Mantequilla"; double ventas3 = 60000.0;
+        String nombre4 = "Don Cookie", producto4 = "Rellenas de Nutella"; double ventas4 = 150000.0;
+        String nombre5 = "Bakery Express", producto5 = "Red Velvet"; double ventas5 = 95000.0;
     }
 }
