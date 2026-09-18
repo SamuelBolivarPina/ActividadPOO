@@ -41,6 +41,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Tienda" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UsuarioSistema" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proyectoSoftware" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CanalStream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ejercicio69" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/NegocioGalletas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Samuel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
