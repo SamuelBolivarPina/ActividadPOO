@@ -51,5 +51,13 @@ public class main {
         String nombre3 = "Crispy Bakes", producto3 = "Mantequilla"; double ventas3 = 60000.0;
         String nombre4 = "Don Cookie", producto4 = "Rellenas de Nutella"; double ventas4 = 150000.0;
         String nombre5 = "Bakery Express", producto5 = "Red Velvet"; double ventas5 = 95000.0;
+
+        ventas1 = registrarVentaProc(ventas1, 15000.0);
+
+        mostrarResumenProc(nombre1, producto1, ventas1);
+        mostrarResumenProc(nombre2, producto2, ventas2);
+        mostrarResumenProc(nombre3, producto3, ventas3);
+        mostrarResumenProc(nombre4, producto4, ventas4);
+        mostrarResumenProc(nombre5, producto5, ventas5);
     }
 }
