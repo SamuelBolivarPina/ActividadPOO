@@ -27,6 +27,19 @@ public class main {
 
             // Modificación de estado en POO
             s1.cumplirAnio();
+
+            s1.mostrarPerfil();
+            System.out.println("---");
+            s2.mostrarPerfil();
+            System.out.println("---");
+            s3.mostrarPerfil();
+            System.out.println("---");
+            s4.mostrarPerfil();
+            System.out.println("---");
+            s5.mostrarPerfil();
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
