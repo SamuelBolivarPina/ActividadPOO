@@ -14,4 +14,8 @@ public class Samuel {
         this.carrera = carrera;
     }
 
+    public void cumplirAnio() {
+        this.edad += 1;
+    }
+
 }
