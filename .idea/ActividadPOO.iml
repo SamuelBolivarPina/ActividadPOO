@@ -40,6 +40,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Temperatura" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tienda" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UsuarioSistema" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/proyectoSoftware" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
