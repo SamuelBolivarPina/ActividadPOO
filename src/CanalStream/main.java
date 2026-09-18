@@ -42,5 +42,21 @@ public class main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        System.out.println("=== SIMULACIÓN PROCEDIMENTAL: 5 Entidades CanalStream ===");
+
+        String nombre1 = "Tremord", plat1 = "Kick"; double horas1 = 12.5;
+        String nombre2 = "ProGamer", plat2 = "Twitch"; double horas2 = 45.0;
+        String nombre3 = "DevLive", plat3 = "YouTube"; double horas3 = 80.0;
+        String nombre4 = "PixelArt", plat4 = "Twitch"; double horas4 = 5.0;
+        String nombre5 = "CodeStream", plat5 = "Kick"; double horas5 = 32.0;
+
+        // Actualización procedimental
+        horas1 = transmitirProc(horas1, 3.5);
+
+        mostrarEstadisticasProc(nombre1, plat1, horas1);
+        mostrarEstadisticasProc(nombre2, plat2, horas2);
+        mostrarEstadisticasProc(nombre3, plat3, horas3);
+        mostrarEstadisticasProc(nombre4, plat4, horas4);
+        mostrarEstadisticasProc(nombre5, plat5, horas5);
     }
 }
